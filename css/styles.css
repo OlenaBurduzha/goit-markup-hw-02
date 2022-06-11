@@ -1,3 +1,65 @@
+
 body {
-    font-family:
+    color:#757575;
+    background: #E5E5E5
+    font-family Roboto, sans-serif; 
+}
+/*цвет основного текста #212121*/
+/*цвет вторичного текста #757575;*/
+/* цвет кнопок акцент #2196F3*/
+/* цвет белый, герой, кнопки #FFFFFF*/
+ul {
+    list-style: none;
+    
+}
+/*heder*/
+
+.logo {
+color:#000000;
+font-family: 'Raleway';
+font-weight: 700;
+font-size: 26px;
+line-height: 1,2;
+}
+.logo:hover, 
+.logo:focus {
+color: #2196F3;
+}
+.site-nav a {
+color: #212121;
+}
+.site-nav a:hover,
+.site-nav a:focus {
+    color: #2196F3;
+}
+.contacts {
+    color: #757575;
+}
+.contacts:hover,
+.contacts:focus {
+    color: #2196F3;
+}
+/*main*/
+/*hero*/
+.hero {
+    background-color: #2F303A;
+    color: #FFFFFF;
+    font-weight: 900;
+    font-size: 44px;
+    text-align: center;
+}
+button {
+background-color: FFFFFF;
+width: 200px;
+height: 50px;
+cursor: pointer;
+}
+.button:hover,
+.button:focus {
+   background-color: #2196F3;
+   color: #FFFFFF;
+}
+/*section*/
+.section-title, h3 {
+    color: #212121;
 }
